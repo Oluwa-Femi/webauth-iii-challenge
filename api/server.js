@@ -15,5 +15,7 @@ server.use(cors());
 server.use('/api/auth', authRouter);
 
 server.get('/', (req, res) => {
-    res.send("It's a Living, Breathing Server!")
+    res.send("Server is live! Yeah!!")
 })
+
+module.exports = server;
